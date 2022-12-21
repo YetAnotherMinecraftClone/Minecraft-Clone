@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/Server/World.cs" />
+     <Compile Include="Assets/Scripts/Blocks/Block.cs" />
+     <Compile Include="Assets/Scripts/BlockType.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/mnt/9c46e414-eced-4613-b375-3000bf052eee/Unity/2020.3.43f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
