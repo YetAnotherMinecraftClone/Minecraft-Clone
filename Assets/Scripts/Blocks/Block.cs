@@ -10,11 +10,13 @@ public abstract class Block : MonoBehaviour
     BlockType type;
     
     //Left Click Interaction
+    //Override this class if you plan on making custom Interaction
     public virtual void leftClick() {
         //To-Do: break block
     }
 
     //Right Click Interaction
+    //Override this class if you plan on making custom Interaction
     public virtual void rightClick() {
         //To-Do: place block
     }
